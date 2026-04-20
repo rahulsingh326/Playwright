@@ -1,0 +1,10 @@
+let result =["pass","fail", "pass","error", "fail"];
+result.indexOf("pass");
+result.lastIndexOf("fail");
+result.includes("pass");
+result.includes("skip"); 
+console.log("___________________");
+let nums =[10,20,30, 40];
+console.log(nums.find(x=> x>20));
+console.log(nums.findLast(n => n>20));
+console.log(nums.findLastIndex(n => n>20));
